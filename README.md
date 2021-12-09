@@ -6,19 +6,10 @@ The data is related with direct marketing campaigns at a banking institution. Th
 - Goal:
 The classification goal is to predict if the client will subscribe (yes/no) a term deposit (variable y).
 
-Data set has a 10 categorical variable and 10 Numerical Variable varibable
+- Data set has a 10 categorical variable and 10 Numerical Variable varibable
 
 Categorical:
-
-job,
-marital,
-education,
-default,
-housing ,
-contact,
-month,
-poutcome
-loan 10.day_of_week
+job,marital,education,default,housing ,contact,month,poutcomeloan 10.day_of_week
 Numerical: 
 1.age, 
 2.pdays 
