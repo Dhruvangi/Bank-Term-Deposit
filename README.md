@@ -13,7 +13,7 @@ The classification goal is to predict if the client will subscribe (yes/no) a te
      
      Numerical: 
      age, pdays, day, duration, campaign, previous, emp.var.rate, cons.conf.idx, euribor3m, employed
-     
+  # Did your profile Subscribe versus unsubscribe very well?    
 - most of the people age between 30 to 50 but students and retired are more likely to subscribe.
 - Job attribute: we can see the count of 'admin is higher than the other. Also, the count for 'blue-collar' is noticeable, and blue-collar and white-collar(manager,admin) job type   people are more likely to subscribe.    
 - A high proportion of non-defaulters corresponds to the total of term deposit takers. It seems that it makes good sense that people with credit do not want to subscribe to a new   bank offer.
