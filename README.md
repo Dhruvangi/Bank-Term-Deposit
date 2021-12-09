@@ -26,3 +26,25 @@ The classification goal is to predict if the client will subscribe (yes/no) a te
 - All the Categories in each categorical variable have out of proportion 'yes' compared to 'no' for term deposits subscription.
   Previous campaign calls failed to get customers to subscribe to bank term deposits.
 - In- months of March, September, October, and December, the client show high interest in depositing. In the month of may, records are high but the client interest ratio is very     less
+
+Data Prepration and Process:
+ 
+- Dataset contains two datatypes: int64 (numerical), float64(numerical) and object, knowing datatype helps us with using correct                                     operations on correct data columns later on
+- Null values:  There is no null value in NaN form  but it contains lots of unknown values and dulicate records.
+- Drop dulpicate recods to clean and organize dataset.
+- Replace all unknown with NaN value.
+- Missing Value available in dataset :  0.8 % in job , 0.19 % in marital status , 4.19 % in education, and 20.87 % in default     column 
+- As misssing value ration is very less compare to dataset, decided to replace with mode value(as all are categorical).
+- from the visulization(boxplot) some outliers are found in Age, Duration, Pdays, campaign columns
+- the contact variable and day_of_week are omitted because the contact method (cellular, telephone) does not provide much         relevant information. 
+
+Feture Engineering: 
+- Machine learning algorithms cannot work with categorical data directly.Categorical data must be converted to numeric
+- convert all categorical fetures in to numeric using one hot encoding method.
+- for job and education, I made cluster where same category combine together to avoid curse of dimensionality(Increasing the         number of features means that we might encounter cases of not having enough observations for each feature combination)
+- Convert all categorical variable in to numeric variable with help of one hot encoding method. 
+
+Build the model
+- Build Logistic Regression and Decision Tree model
+
+# 
