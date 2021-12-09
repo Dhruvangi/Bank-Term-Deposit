@@ -8,16 +8,7 @@ The classification goal is to predict if the client will subscribe (yes/no) a te
 
 - Data set has a 10 categorical variable and 10 Numerical Variable varibable
 
-Categorical:
-job,marital,education,default,housing ,contact,month,poutcomeloan 10.day_of_week
-Numerical: 
-1.age, 
-2.pdays 
-3.day, 
-4.duration, 
-5.campaign, 
-6.previous, 
-7.emp.var.rate 
-8.cons.conf.idx 
-9.euribor3m 
-10.employed
+   Categorical:
+     job, marital, education, default, housing , contact, month, poutcome, loan, day_of_week
+   Numerical: 
+     age, pdays, day, duration, campaign, previous, emp.var.rate, cons.conf.idx, euribor3m, employed
