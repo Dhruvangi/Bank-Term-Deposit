@@ -27,7 +27,7 @@ The classification goal is to predict if the client will subscribe (yes/no) a te
   Previous campaign calls failed to get customers to subscribe to bank term deposits.
 - In- months of March, September, October, and December, the client show high interest in depositing. In the month of may, records are high but the client interest ratio is very     less
 
-Data Prepration and Process:
+# Data Prepration and Process:
  
 - Dataset contains two datatypes: int64 (numerical), float64(numerical) and object, knowing datatype helps us with using correct                                     operations on correct data columns later on
 - Null values:  There is no null value in NaN form  but it contains lots of unknown values and dulicate records.
@@ -45,6 +45,15 @@ Feture Engineering:
 - Convert all categorical variable in to numeric variable with help of one hot encoding method. 
 
 Build the model
-- Build Logistic Regression and Decision Tree model
+- Given data is highly imblace so, applied SMOTE oversamplaing Techniques.
+- Build Logistic Regression and Decision Tree model.
 
-# 
+
+# Final recommendation 
+(From the Decision Tree Fetuare Importance)
+- The most important features to determine is poutcome, if a new customer will accept the deposit who accepted it previously(>37%)
+- Second most important feature is month. need to consider best season for the campaign promotion. For example, In given campaign, We saw that the month of highest level of marketing activity was the month of May. However, this was the month that potential clients tended to reject term deposits offers. For the next marketing campaign, it will be wise for the bank to focus the marketing campaign during the months of March, September, October and December.
+- Third important feature is poutcome. one of the possibility is they have not been contacted previously. Those are considered new clients. Approaching them in proper way might lead to increase in the business.
+
+
+
