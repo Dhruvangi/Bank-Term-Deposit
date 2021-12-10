@@ -45,7 +45,7 @@ Feture Engineering:
 - Convert all categorical variable in to numeric variable with help of one hot encoding method. 
 
 Build the model
-- Given data is highly imblace so, applied SMOTE oversamplaing Techniques.
+- Given data is highly imbalance so, applied SMOTE oversamplaing Techniques.
 - Build Logistic Regression and Decision Tree model.
 
 
