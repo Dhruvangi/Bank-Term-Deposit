@@ -11,7 +11,8 @@ job, marital, education, default, housing , contact, month, poutcome, loan, day_
      
 Numerical: 
 age, pdays, day, duration, campaign, previous, emp.var.rate, cons.conf.idx, euribor3m, employed
-# Data Exploration
+
+# Data Exploration:
    
 - most of the people age between 30 to 50 but students and retired are more likely to subscribe.
 - Job attribute: we can see the count of 'admin is higher than the other. Also, the count for 'blue-collar' is noticeable, and blue-collar and white-collar(manager,admin) job type   people are more likely to subscribe.    
