@@ -2,17 +2,17 @@
 - Problem- Statement:
 The data is related with direct marketing campaigns at a banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be ('yes') or not ('no') subscribed.
 
-"just want to check" changes
 - Goal:
 The classification goal is to predict if the client will subscribe (yes/no) a term deposit (variable y).
-- Data set has a 10 categorical variable and 10 Numerical Variable varibable
+- Data set has a 10 categorical variables and 10 Numerical Variable varibables
 
 Categorical:
 job, marital, education, default, housing , contact, month, poutcome, loan, day_of_week
      
 Numerical: 
 age, pdays, day, duration, campaign, previous, emp.var.rate, cons.conf.idx, euribor3m, employed
-# Did your profile Subscribe versus unsubscribe very well?    
+# Data Exploration
+   
 - most of the people age between 30 to 50 but students and retired are more likely to subscribe.
 - Job attribute: we can see the count of 'admin is higher than the other. Also, the count for 'blue-collar' is noticeable, and blue-collar and white-collar(manager,admin) job type   people are more likely to subscribe.    
 - A high proportion of non-defaulters corresponds to the total of term deposit takers. It seems that it makes good sense that people with credit do not want to subscribe to a new   bank offer.
